@@ -1,0 +1,1 @@
+com.example.game    该包下写游戏源码
