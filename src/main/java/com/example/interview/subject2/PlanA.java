@@ -8,7 +8,7 @@ import java.util.List;
  * @Author：GuoFeng
  * @CreateTime：2022-05-18
  */
-public class A {
+public class PlanA {
     public static void main(String[] args) {
         List<Integer> startStr = new ArrayList<>();
         startStr.add(1);

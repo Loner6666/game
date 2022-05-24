@@ -9,7 +9,7 @@ import java.util.List;
  * @Author：GuoFeng
  * @CreateTime：2022-05-18
  */
-public class B {
+public class PlanB {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1);
         list.forEach(item -> System.out.println(item));
