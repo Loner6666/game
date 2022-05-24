@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  * @Author：GuoFeng
  * @CreateTime：2022-05-24
  */
-public class DoMain {
+public class Merge {
     // * 本地文件路径
     // * "C:\Users\GuoFeng\Desktop\新建文件夹\A.txt"
     // * "C:\Users\GuoFeng\Desktop\新建文件夹\B.txt"
@@ -76,6 +76,7 @@ public class DoMain {
         } else {
             file.createNewFile();
         }
+        //FileWriter(file, false)参数中的append=true，则将字节写入文件末尾处,相当于追加信息；如果append参数为false, 则写入文件开始处。
         FileWriter fw = new FileWriter(file, false);
         BufferedWriter bw = new BufferedWriter(fw);
         bw.write(sb.toString());
